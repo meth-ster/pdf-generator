@@ -1,0 +1,140 @@
+.pdf-content-wrap {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  border: 2px solid #bac2db;
+  border-radius: 10px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.process {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  color: #090e24;
+  margin: 0 15px 0 5px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  z-index: 11;
+}
+
+.pdf-content {
+  max-width: 563px;
+  margin: auto;
+  padding: 12px;
+}
+
+.flex-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .flex-wrap > p {
+  font-family: Poppins;
+  font-weight: 900;
+  font-size: 9px;
+  line-height: 16px;
+  color: #1463ff;
+}
+
+header .flex-nojustify-wrap {
+  display: flex;
+  align-items: center;
+}
+
+header .flex-nojustify-wrap > p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 24px;
+  color: #090e24;
+  margin: 0 15px 0 5px;
+}
+
+.header-line {
+  background: linear-gradient(
+    90.22deg,
+    #005dff 0%,
+    #00a3ff 44.27%,
+    #21ddff 100%
+  );
+  width: 563px;
+  height: 2px;
+}
+
+.box-header {
+  background: #e8eefb;
+  border-radius: 12.76px 12.76px 0 0;
+  padding: 12px 0;
+  width: 563px;
+  margin-top: 10px;
+}
+
+.box-content {
+  background: #f2f4f5;
+  border-radius: 0 0 12px 12px;
+  padding: 12px 0;
+  position: relative;
+  width: 563px;
+  margin-bottom: 10px;
+}
+
+.box-content-wrap1 {
+  width: 510px;
+  height: 65px;
+  margin: auto;
+  padding: 0px 5px 5px;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.box-content-wrap2 {
+  width: 510px;
+  height: 86px;
+  margin: auto;
+  padding: 0px 5px 5px;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.box-content-wrap3 {
+  width: 510px;
+  height: 133px;
+  margin: auto;
+  padding: 0px 5px 5px;
+  background: #fff;
+  border-radius: 12px;
+}
+
+footer .footer-line {
+  background: linear-gradient(
+    90.22deg,
+    #005dff 0%,
+    #00a3ff 44.27%,
+    #21ddff 100%
+  );
+  width: 563px;
+  height: 2px;
+}
+
+footer .flex-wrap p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 16px;
+  color: #1463ff;
+}
+
+footer .flex-wrap p span {
+  color: #626e99;
+}

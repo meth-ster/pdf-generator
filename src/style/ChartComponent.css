@@ -1,0 +1,74 @@
+.chart-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.chart-header p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 24px;
+  color: #090e24;
+  margin: 0 15px 0 5px;
+}
+
+.chart-header .line {
+  background: linear-gradient(
+    9022deg,
+    #005dff 0%,
+    #00a3ff 44.27%,
+    #21ddff 100%
+  );
+  width: 563px;
+  height: 2px;
+}
+
+.box-header {
+  background: #e8eefb;
+  border-radius: 12.76px 12.76px 0 0;
+  padding: 12px 0;
+  width: 563px;
+}
+
+.box-header p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 10px;
+  color: #1463ff;
+  margin: 0 0 0 15px;
+}
+
+.box-content {
+  background: #f2f4f5;
+  border-radius: 0 0 12px 12px;
+  padding: 12px 0;
+  position: relative;
+  width: 563px;
+  margin-bottom: 10px;
+}
+
+.left {
+  transform: rotate(-90deg);
+  margin-right: 10px;
+  font-family: Poppins;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  color: #1e1e1e;
+  top: 84px;
+  left: -4px;
+}
+
+.chart-wrap {
+  width: 510px;
+  height: 151px;
+  margin: auto;
+  padding: 0px 5px 5px;
+  background: #fff;
+  border-radius: 12px;
+}
